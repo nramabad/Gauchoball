@@ -54,7 +54,7 @@ If someone accidentally bounces the ball into one of the center cups, DRINK IT! 
 
 ## Wireframes
 
-Something
+![alt text](http://i65.tinypic.com/r1zm8n.jpg)
 
 ## Architecture & Technologies
 
