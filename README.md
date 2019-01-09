@@ -1,4 +1,4 @@
-# GAUCHOBALL (AKA RAGE CAGE)
+# GAUCHOBALL (AKA RAGE CAGE!)
 
 ## Background & Overview 
 
@@ -71,36 +71,36 @@ Setup all necessary Node modules, including getting webpack up and running. Crea
 - [ ] Finish bounce power and direction physics
 
 ### Day 2
-- [ ] Port over the relevant pieces of my Asteroids(with collision physics) project and implement Asteroid creation
-
-### Day 3
-Dedicate this day to learning the Web Audio API. First, build out the AudioEvent object to connect to the Board object. Then, use board.js to create and render Asteroids and AudioEvents. Goals for the day:
-- [ ] Complete the asteroids.js module (constructor, update functions, colors)
-- [ ] Get sounds to play on collisions
-- [ ] Build first sound library
-- [ ] Get collision graphics working
-- [ ] Make the Asteroids able to be created with mouse. Set vectors on mouse release.
-
-
-### Day 4
-Create the logic backend. Build out modular functions for handling the different evolutions. Goals for the day:
-- [ ] Build Markov Matrix object and link it with collisions
-- [ ] Have a functional screen on the Canvas frontend that correctly handles creation and running of the simulation.
-- [ ] Make sure that starting, stopping, and resetting works.
-
-### Day 5
-Install the controls for the user to interact with the game. Style the frontend, making it polished and professional. Goals for the day:
-- [ ] Create controls for game speed, stop, start, restart, reset
-- [ ] Build out list of instruments
-- [ ] Have a styled Canvas, nice looking controls and title
+- [ ] Port over the relevant pieces of physics project and implement ping pong ball and cup creation
+- [ ] Have a functional screen on the Canvas frontend that correctly handles creation and running of the simulation
 
 ### Over the weekend:
 - [ ] Test the project for bugs
 - [ ] Deploy the project on GitHub Pages
 
+### Day 3
+Create the basic game logic and build out modular functions for different player cups. Goals for the day:
+- [ ] Build events for cup stack (player 1) and trailing cup (player 2)
+- [ ] Switch cups on event that player 2 is adjacent right of player 1 and makes cup before player 1
+- [ ] Make sure that starting, stopping, and resetting works
+
+### Day 4
+Install the controls for the user to interact with the game. Style the frontend, making it polished and professional. Goals for the day:
+- [ ] Create controls for game speed, stop, start, restart, reset
+- [ ] Build out list of instruments
+- [ ] Have a styled Canvas, nice looking controls and title
+- [ ] Allow for player to select new cup position if cup made on first try
+
+### Day 5
+Create AI Player initialized with random skill level and decreasing skill level with cups lost
+- [ ] Initialize AI Player with random power and aim modifiers
+- [ ] Allow for AI to select randomized cup if cup made on first try
+- [ ] Allow players to select number of AI and human players
+
 
 ## Bonus Features 
 
+- [ ] Create AI Strategy logic for selecting cup if cup made on first try
 - [ ] Learn enough Web Audio to render an object to the Canvas element and create a sound
 - [ ] Complete WebAudioAPI Tutorial and loaded basic sound from static assets
 - [ ] Export an AudioEvent object with correct type and handling logic
